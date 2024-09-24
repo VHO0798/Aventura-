@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    Em busca da cidade perdida
+</head>
+<body>
     <main>
         <div class="passo ativo" id="passo-0">
             <img src="img/cenario-passo0.png" alt="">
@@ -15,3 +27,11 @@
             <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
             <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
         </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Amazonas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
